@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <img src="image/ALEKS_logo.hcache_20140731.png" alt="">
     <meta charset="utf-8">
     <title>MORINGA QUIZ</title>
+  <link <img src="image/ALEKS_logo.hcache_20140731.png" alt="">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
      <link href="css/style.css" rel="stylesheet" type="text/css">
      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
   </head>
   <body>
+    <div class="container">
+    <div class="jumbotron">
+  <legend> <p> MORINGA HIGH SCHOOL ONLINE QUIZ </p>
+  </legend>
+    </div>
+   <div class="intro">
+   <legend<h1>CONTINUE WORKING TOWARDS YOUR DEV ACADEMIC PATH </h1></legend>
+   <p>DUE: FRIDAY 11:59 pm</p>
+
+ <form name="quiz" id="onlinequizform" method="post" onsubmit="return false">
+   <fieldset>
+     <div class="jumbotron">
+     <div class="swa1">
+        <legend><h3>QUIZ:1</h3> </legend> <p> Which sign do you use to represent an id in css?</p> </div>
+       <input type="radio" name="quiz1" value="0" required> .<br>
+       <input type="radio" name="quiz1" value="1" required> #<br>
+       <input type="radio" name="quiz1" value="0" required> $<br>
+     <br>
+  </div>
+     <div class="jumbotron">
+     <div class="swa2">
+         <legend><h3>QUIZ:2</h3> </legend> <br> <p>What do we call elements that are nested within other elements?</p>  </div>
+       <input type="radio" name="quiz2" value="0"required> block elements <br>
+       <input type="radio" name="quiz2" value="0"required> nested elements<br>
+       <input type="radio" name="quiz2" value="1"required>inline elements<br>
+
+   </div>
+     <div class="jumbotron">
+     <div class="swa2">
+         <legend><h3 >QUIZ:3</h3> </legend> <br> <p> which method do you use to add content to an element from the top and as a child?</p> </div>
+       <input type="radio" name="quiz3" value="1"required>.prepend()<br>
+       <input type="radio" name="quiz3" value="0"required>.append()<br>
+       <input type="radio" name="quiz3" value="0"required>.before<br>
+     </div>
+     <div class="jumbotron">
+     <div class="swa4">
+         <legend><h3 >QUIZ:4</h3> </legend> <br><p>Which of the following tags is used to make a list with numbers?</p>  </div>
+       <input type="radio" name="quiz4" value="0"required>&lt;ul&gt;<br>
+       <input type="radio" name="quiz4" value="1"required>&lt;ol&gt;<br>
+       <input type="radio" name="quiz4" value="0"required>&lt;br&gt;<br>
+
+     </div>
+     <div class="jumbotron">
+     <div class="swa5">
+         <legend> <h3> QUIZ:5</h3></legend> <br> <p>Which of the following languages is used for back end operations?</p></legend> </div>
+       <input type="radio" name="quiz5" value="1"required>Python<br>
+       <input type="radio" name="quiz5" value="0"required>Css<br>
+       <input type="radio" name="quiz5" value="0"required>HTML<br>
+
+     </div>
+     <div class="jumbotron">
+     <div class="swa6">
+         <legend><h3 >QUIZ:6</h3> </legend> <br>
+         <P> Where do we put our css link in html?</P> </div>
+       <input type="radio" name="quiz6" value="1"required>&lt;head&gt;<br>
+       <input type="radio" name="quiz6" value="0"required>&lt;body&gt;<br>
+       <input type="radio" name="quiz6" value="0"required>&lt;title&gt;<br>
+
+     </div>
+     <div class="jumbotron">
+     <div class="swa7">
+         <legend><h3>QUIZ:7</h3> </legend>  <br>
+       <p> What will the statement 20>30 evaluate to?</p> </div>
+       <input type="radio" name="quiz7" value="0"required>True<br>
+       <input type="radio" name="quiz7" value="1"required>False<br>
+       <input type="radio" name="quiz7" value="0"required>Not equaL<br>
+
+     </div>
+     <div class="jumbotron">
+     <div class="swa8">
+         <legend><h3>QUIZ:8</h3> </legend> <br>
+       <P> How do we create a new branch in the terminal?</p> </div>
+       <input type="radio" name="quiz8" value="1"required>git branch branchname<br>
+       <input type="radio" name="quiz8" value="0"required>git branchname<br>
+       <input type="radio" name="quiz8" value="0"required>git checkout branchname<br>
+
+     </div>
+     <div class="jumbotron">
+     <div class="swa9">
+         <legend><h3>QUIZ:9</h3> </legend> <br>
+       <p>Which language do we use to style the appearance of our websites?</p>  </div>
+       <input type="radio" name="quiz9" value="0"required>Javascript<br>
+       <input type="radio" name="quiz9" value="0"required>html<br>
+       <input type="radio" name="quiz9" value="1"required>css<br>
+     </div>
+     <div class="jumbotron">
+     <div class="quiz10">
+         <legend><h3> QUIZ:10</h3> </legend> <br>
+       <p>Bootstraps was originally created by twitter to act as a template for all their webpages</p>  </div>
+       <input type="radio" name="quiz10" value="1"required>True<br>
+       <input type="radio" name="quiz10" value="0"required>False<br>
+       <input type="radio" name="quiz10" value="0"required>Both<br>
+
+     </div>
+     <button class="submit" onsubmit="return handleclick();" type="Submit">Submit</button>
+<p id="finalscore"></p>  </div>
+
+   </fieldset>
+   </form>
+  </div
   </body>
 </html>
